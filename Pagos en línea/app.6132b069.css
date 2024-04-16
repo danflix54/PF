@@ -1,0 +1,86 @@
+@font-face {
+    font-family: GothamBlack;
+    src: url(../fonts/Gotham-Black.57033dc1.otf) format("opentype")
+}
+
+
+
+@font-face {
+    font-family: GothamMedium;
+    src: url(../fonts/Gotham-Medium.bcd733e6.otf) format("opentype")
+}
+
+.pf-background {
+    background-image: url(./home.fa4c8efb.jpeg);
+    background-size: cover
+}
+
+
+@media (max-width:599.98px) {
+    .pf-background {
+        background-image: url(../img/home-600.d4589f70.png)
+    }
+}
+
+.pf-background-on-loading {
+    background-image: url(../img/home-on-loading.3797c061.jpeg);
+    background-size: cover
+}
+
+@media (max-width:1023.98px) {
+    .pf-background-on-loading {
+        background-image: url(../img/home-1024-on-loading.75f757b6.png)
+    }
+}
+
+@media (max-width:599.98px) {
+    .pf-background-on-loading {
+        background-image: url(../img/home-600-on-loading.0db2973b.png)
+    }
+}
+
+.font-black {
+    font-family: GothamBlack, sans-serif
+}
+
+.font-bold {
+    font-family: GothamBold, sans-serif
+}
+
+.font-medium {
+    font-family: GothamMedium, sans-serif
+}
+
+.q-btn {
+    font-family: GothamBold, sans-serif
+}
+
+.pel-cont.gran,
+.pel-input.gran {
+    min-width: 250vh
+}
+
+.pel-cont.med,
+.pel-input.med {
+    min-width: 100vh
+}
+
+.pel-cont.chico,
+.pel-input.chico {
+    min-width: 50vh
+}
+
+.pel-bg-tr {
+    background: radial-gradient(circle, #fafad2e3 0, #d3d3d3d9 95%);
+    background-color: #fff
+}
+
+.q-drawer {
+    background: radial-gradient(circle, #fafad2e3 0, #d3d3d3d9 95%)
+}
+
+* {
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility
+}
